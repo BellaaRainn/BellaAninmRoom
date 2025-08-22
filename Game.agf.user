@@ -21,7 +21,7 @@
   </Component>
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>DataFile=BellaAninmRoom,Windows=BellaAninmRoom,</LastBuildGameFileName>
+    <LastBuildGameFileName>DataFile=BellaAninmRoom,Windows=BellaAninmRoom,_Debug=BellaAninmRoom,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>
