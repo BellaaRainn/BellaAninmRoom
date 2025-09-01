@@ -1,0 +1,1 @@
+var gamefiles = ['BellaAninmRoom.ags', 'acsetup.cfg'];
