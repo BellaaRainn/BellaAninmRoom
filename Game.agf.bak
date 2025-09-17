@@ -2476,7 +2476,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>4</MovementSpeed>
+            <MovementSpeed>5</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>3</NormalView>
@@ -4926,6 +4926,107 @@
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Character">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="14" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle0.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="15" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="16" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle2.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="17" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle3.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="18" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle4.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="19" Width="32" Height="50" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>C:\Users\bfasula\Downloads\Walk Cycle\WalkCycle5.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>50</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -5263,28 +5364,42 @@
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>10</Image>
+                    <Image>14</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>11</Image>
+                    <Image>15</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>12</Image>
+                    <Image>16</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>13</Image>
+                    <Image>17</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>18</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>19</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5297,28 +5412,42 @@
                     <Delay>0</Delay>
                     <Flipped>True</Flipped>
                     <ID>0</ID>
-                    <Image>10</Image>
+                    <Image>14</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>True</Flipped>
                     <ID>1</ID>
-                    <Image>11</Image>
+                    <Image>15</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>True</Flipped>
                     <ID>2</ID>
-                    <Image>12</Image>
+                    <Image>16</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>True</Flipped>
                     <ID>3</ID>
-                    <Image>13</Image>
+                    <Image>17</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>4</ID>
+                    <Image>18</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>True</Flipped>
+                    <ID>5</ID>
+                    <Image>19</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5331,28 +5460,42 @@
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>10</Image>
+                    <Image>14</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>11</Image>
+                    <Image>15</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>12</Image>
+                    <Image>16</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>13</Image>
+                    <Image>17</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>18</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>19</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5365,28 +5508,42 @@
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>0</ID>
-                    <Image>10</Image>
+                    <Image>14</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>1</ID>
-                    <Image>11</Image>
+                    <Image>15</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>2</ID>
-                    <Image>12</Image>
+                    <Image>16</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <Delay>0</Delay>
                     <Flipped>False</Flipped>
                     <ID>3</ID>
-                    <Image>13</Image>
+                    <Image>17</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>4</ID>
+                    <Image>18</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>5</ID>
+                    <Image>19</Image>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -5396,7 +5553,9 @@
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews />
+    <DeletedViews>
+      <ViewID>4</ViewID>
+    </DeletedViews>
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />
